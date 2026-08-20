@@ -161,7 +161,7 @@ class Lexer:
         return self._pos >= self._length
 
     # ------------------------------------------------------------------
-    # Descarte de espaços e comentários
+    # Descarte de espaços e comentários.
     # ------------------------------------------------------------------
 
     def _skip_trivia(self) -> None:
